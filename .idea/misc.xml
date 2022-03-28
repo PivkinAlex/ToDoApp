@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/drawable/ic_launcherMen2_background.xml" value="0.1945" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/drawable/ic_launcherTop_background.xml" value="0.1775" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcherMen2.xml" value="0.1945" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcherMen2_round.xml" value="0.1945" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcherMen_round.xml" value="0.1945" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcherPeople.xml" value="0.1945" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcherPeople_round.xml" value="0.1945" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcherTop.xml" value="0.1945" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcherTop_round.xml" value="0.1945" />
