@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/circle" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView"
+        android:id="@+id/imageFilterView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
@@ -25,7 +25,7 @@
         android:layout_marginHorizontal="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/twopersons" />
+        app:srcCompat="@drawable/persons" />
 
     <TextView
         android:id="@+id/textView2"
@@ -39,7 +39,7 @@
         android:layout_marginHorizontal="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageFilterView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView1" />
 
     <TextView
         android:id="@+id/textView"
