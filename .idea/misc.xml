@@ -30,6 +30,10 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcherTop_round.xml" value="0.1945" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.107" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/mipmap-anydpi-v26/ic_launchertop.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/layout/activity_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/layout/activity_registration.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TesT/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
       </map>
     </option>
   </component>
