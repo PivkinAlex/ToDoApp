@@ -67,7 +67,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins"
+            android:textColorHint="#757575"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -94,11 +95,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
-            android:fontFamily="@font/poppins" />
+            android:fontFamily="@font/poppins"
+            android:textColorHint="#757575"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/forgotPasswordTextView"
+        android:id="@+id/TextViewForgotPassword"
         android:layout_width="wrap_content"
         android:layout_marginHorizontal="35dp"
         android:layout_height="wrap_content"
@@ -128,7 +130,7 @@
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="@+id/editPasswordLayout"
         app:layout_constraintStart_toStartOf="@+id/editPasswordLayout"
-        app:layout_constraintTop_toBottomOf="@+id/forgotPasswordTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/TextViewForgotPassword" />
 
     <TextView
         android:id="@+id/textView"
@@ -145,7 +147,7 @@
         app:layout_constraintTop_toBottomOf="@+id/signInButton" />
 
     <TextView
-        android:id="@+id/sign_UpTextView"
+        android:id="@+id/textViewSignUp"
         android:layout_width="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
@@ -161,5 +163,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
