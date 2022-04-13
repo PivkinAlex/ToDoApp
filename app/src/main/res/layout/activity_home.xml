@@ -9,29 +9,24 @@
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView0"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="280dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="250dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/yellow_fon" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="230dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white_circle" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView2"
-        android:layout_width="147dp"
-        android:layout_height="149dp"
-        android:layout_marginTop="164dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageFilterView0"
@@ -41,25 +36,22 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/welcome_anand"
         android:textColor="@color/black"
-        android:textSize="28sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageFilterView2"
+        app:layout_constraintStart_toStartOf="@+id/imageFilterView2"
         app:layout_constraintTop_toBottomOf="@+id/imageFilterView2" />
 
     <ImageButton
         android:id="@+id/imageExitButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/yellow"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="10dp"
-        android:layout_marginStart="350dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/exit" />
 

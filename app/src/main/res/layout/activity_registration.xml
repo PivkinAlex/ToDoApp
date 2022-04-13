@@ -8,11 +8,8 @@
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView7"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="230dp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/circle"
@@ -22,8 +19,6 @@
         android:id="@+id/textView0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="45dp"
-        android:layout_marginStart="45dp"
         android:layout_marginTop="150dp"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/welcome_onboard"
@@ -64,9 +59,7 @@
         app:boxCornerRadiusTopEnd="30dp"
         app:boxCornerRadiusTopStart="30dp"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/textView2"
-
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -167,7 +160,9 @@
         android:layout_marginTop="32dp"
         android:backgroundTint="@color/yellow"
         android:fontFamily="@font/poppins_bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="@string/register"
+        android:padding="16dp"
         android:textColor="@color/black"
         android:textSize="22sp"
         app:cornerRadius="10dp"
@@ -177,33 +172,29 @@
 
     <TextView
         android:id="@+id/textView"
+        android:layout_marginTop="9dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginBottom="13dp"
         android:fontFamily="@font/poppins"
+        android:layout_marginEnd="40dp"
         android:text="@string/already_have_an_account"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textColor="@color/black"
         android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/registerButton"
+        app:layout_constraintStart_toStartOf="@+id/registerButton"
         app:layout_constraintTop_toBottomOf="@+id/registerButton" />
 
     <TextView
         android:id="@+id/signUpTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="9dp"
         android:layout_marginStart="5dp"
-        android:layout_marginEnd="65dp"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/sign_in"
         android:textAlignment="viewStart"
         android:textColor="@color/yellow"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/registerButton" />
 
